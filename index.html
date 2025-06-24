@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franz Caballero - Portafolio | Estudiante de Sistemas Informáticos</title>
+    <meta name="description" content="Portafolio de Franz Caballero, estudiante de Sistemas Informáticos en Universidad del Valle, Bolivia. Proyectos académicos y habilidades técnicas.">
+    <meta name="keywords" content="Franz Caballero, sistemas informáticos, programación, universidad del valle, bolivia, portafolio, estudiante">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo-circuit.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="logo-container">
+                    <div class="logo-wrapper">
+                        <img src="assets/images/logo-circuit.png" alt="Logo - Circuito Tecnológico" class="logo-img">
+                    </div>
+                    <div class="brand-text">
+                        <h1 class="brand-title">Franz Caballero</h1>
+                        <p class="brand-subtitle">Sistemas Informáticos</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="#inicio" class="nav-link" data-section="inicio">Inicio</a>
+                <a href="#sobre-mi" class="nav-link" data-section="sobre-mi">Sobre Mí</a>
+                <a href="#educacion" class="nav-link" data-section="educacion">Educación</a>
+                <a href="#habilidades" class="nav-link" data-section="habilidades">Habilidades</a>
+                <a href="#proyectos" class="nav-link" data-section="proyectos">Proyectos</a>
+                <a href="#contacto" class="nav-link" data-section="contacto">Contacto</a>
+            </div>
+            
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema">
+                    <i data-lucide="sun" class="theme-icon light-icon"></i>
+                    <i data-lucide="moon" class="theme-icon dark-icon"></i>
+                </button>
+                <button id="mobile-menu-toggle" class="mobile-menu-toggle">
+                    <i data-lucide="menu" class="menu-icon"></i>
+                    <i data-lucide="x" class="close-icon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-section">
+        <div class="hero-bg">
+            <div class="hero-decoration hero-decoration-1"></div>
+            <div class="hero-decoration hero-decoration-2"></div>
+            <div class="hero-decoration hero-decoration-3"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-avatar">
+                    <img src="assets/images/logo-circuit.png" alt="Foto de perfil" class="avatar-img">
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="gradient-text">Franz Abdel Caballero Condori</span>
+                </h1>
+                
+                <p class="hero-subtitle">Estudiante de Sistemas Informáticos | 5to Semestre</p>
+                
+                <p class="hero-description">
+                    Apasionado por la tecnología y el desarrollo de software. En constante aprendizaje y crecimiento profesional.
+                </p>
+                
+                <div class="hero-actions">
+                    <button class="btn btn-primary" onclick="scrollToSection('proyectos')">
+                        Ver Mis Proyectos Académicos
+                    </button>
+                    <button class="btn btn-outline" onclick="scrollToSection('educacion')">
+                        Mi Formación Académica
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <i data-lucide="chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre-mi" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre Mí</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-paragraph">
+                        ¡Hola! Soy estudiante de Sistemas Informáticos en mi 5to semestre, apasionado por la tecnología y el desarrollo de software. Aunque estoy en proceso de formación, cada día aprendo algo nuevo y trabajo en proyectos que me ayudan a crecer profesionalmente.
+                    </p>
+                    <p class="about-paragraph">
+                        Me enfoco en aprender las mejores prácticas de programación, entender los fundamentos de la ingeniería de software y desarrollar habilidades tanto técnicas como de resolución de problemas. Mi objetivo es convertirme en un desarrollador competente y contribuir al mundo de la tecnología.
+                    </p>
+                    <p class="about-paragraph">
+                        Estoy buscando oportunidades de prácticas profesionales y proyectos colaborativos donde pueda aplicar mis conocimientos y seguir aprendiendo de profesionales experimentados.
+                    </p>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i data-lucide="map-pin"></i>
+                            <span>La Paz, Bolivia</span>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="mail"></i>
+                            <span>franz@email.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="calendar"></i>
+                            <span>Disponible para prácticas</span>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="award"></i>
+                            <span>Estudiante Activo</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-card">
+                    <div class="card subjects-card">
+                        <h3 class="card-title">Materias Relevantes</h3>
+                        <div class="subjects-list">
+                            <div class="subject-item">
+                                <h4>Programación Orientada a Objetos</h4>
+                                <p class="subject-semester">4to Semestre</p>
+                                <p class="subject-description">Conceptos fundamentales de POO</p>
+                                <span class="badge badge-success">Completada</span>
+                            </div>
+                            <div class="subject-item">
+                                <h4>Bases de Datos</h4>
+                                <p class="subject-semester">4to Semestre</p>
+                                <p class="subject-description">Diseño y gestión de bases de datos</p>
+                                <span class="badge badge-success">Completada</span>
+                            </div>
+                            <div class="subject-item">
+                                <h4>Desarrollo Web</h4>
+                                <p class="subject-semester">5to Semestre</p>
+                                <p class="subject-description">Tecnologías web modernas</p>
+                                <span class="badge badge-warning">En Curso</span>
+                            </div>
+                            <div class="subject-item">
+                                <h4>Estructuras de Datos</h4>
+                                <p class="subject-semester">3er Semestre</p>
+                                <p class="subject-description">Algoritmos y estructuras fundamentales</p>
+                                <span class="badge badge-success">Completada</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Proyectos Académicos</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5</div>
+                    <div class="stat-label">Semestres Cursados</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Tecnologías Aprendidas</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">3+</div>
+                    <div class="stat-label">Lenguajes Dominados</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="educacion" class="education-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Formación Académica</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">Mi trayectoria educativa y certificaciones obtenidas</p>
+            </div>
+            
+            <div class="education-main">
+                <div class="card university-card">
+                    <div class="university-header">
+                        <div class="university-logo">
+                            <img src="assets/images/univalle-logo.png" alt="Logo Universidad del Valle">
+                        </div>
+                        <div class="university-info">
+                            <h3>Ingeniería en Sistemas Informáticos</h3>
+                            <p class="university-name">Universidad del Valle</p>
+                            <p class="university-location">La Paz, Bolivia</p>
+                        </div>
+                    </div>
+                    
+                    <div class="university-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">5to Semestre</div>
+                            <div class="stat-label">Semestre Actual</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">15+</div>
+                            <div class="stat-label">Materias Aprobadas</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">2022</div>
+                            <div class="stat-label">Año de Inicio</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">2026</div>
+                            <div class="stat-label">Graduación Esperada</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="subjects-section">
+                <h3 class="subsection-title">Materias Destacadas</h3>
+                <div class="subjects-grid">
+                    <div class="card subject-card">
+                        <div class="subject-header">
+                            <i data-lucide="book-open"></i>
+                            <span class="badge badge-outline">4to Sem</span>
+                        </div>
+                        <h4>Programación Orientada a Objetos</h4>
+                        <p>Java, C++, Principios SOLID, Patrones de diseño básicos</p>
+                        <div class="subject-status">
+                            <span>Estado:</span>
+                            <span class="badge badge-success">Completada</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card subject-card">
+                        <div class="subject-header">
+                            <i data-lucide="book-open"></i>
+                            <span class="badge badge-outline">4to Sem</span>
+                        </div>
+                        <h4>Bases de Datos</h4>
+                        <p>MySQL, PostgreSQL, Normalización, Consultas complejas</p>
+                        <div class="subject-status">
+                            <span>Estado:</span>
+                            <span class="badge badge-success">Completada</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card subject-card">
+                        <div class="subject-header">
+                            <i data-lucide="book-open"></i>
+                            <span class="badge badge-outline">3ro Sem</span>
+                        </div>
+                        <h4>Estructuras de Datos y Algoritmos</h4>
+                        <p>Listas, Árboles, Grafos, Complejidad algorítmica</p>
+                        <div class="subject-status">
+                            <span>Estado:</span>
+                            <span class="badge badge-success">Completada</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card subject-card">
+                        <div class="subject-header">
+                            <i data-lucide="book-open"></i>
+                            <span class="badge badge-outline">5to Sem</span>
+                        </div>
+                        <h4>Desarrollo Web</h4>
+                        <p>HTML5, CSS3, JavaScript, Responsive Design</p>
+                        <div class="subject-status">
+                            <span>Estado:</span>
+                            <span class="badge badge-primary">En Curso</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card subject-card">
+                        <div class="subject-header">
+                            <i data-lucide="book-open"></i>
+                            <span class="badge badge-outline">5to Sem</span>
+                        </div>
+                        <h4>Ingeniería de Software</h4>
+                        <p>Metodologías ágiles, UML, Análisis de requerimientos</p>
+                        <div class="subject-status">
+                            <span>Estado:</span>
+                            <span class="badge badge-primary">En Curso</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="certifications-section">
+                <h3 class="subsection-title">Certificaciones y Cursos</h3>
+                <div class="certifications-grid">
+                    <div class="card certification-card">
+                        <div class="certification-icon">
+                            <i data-lucide="award"></i>
+                        </div>
+                        <div class="certification-content">
+                            <h4>Introducción a la Programación</h4>
+                            <p>Coursera</p>
+                            <div class="certification-meta">
+                                <div class="certification-date">
+                                    <i data-lucide="calendar"></i>
+                                    <span>2023</span>
+                                </div>
+                                <span class="badge badge-success">Completado</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card certification-card">
+                        <div class="certification-icon">
+                            <i data-lucide="award"></i>
+                        </div>
+                        <div class="certification-content">
+                            <h4>Fundamentos de HTML y CSS</h4>
+                            <p>freeCodeCamp</p>
+                            <div class="certification-meta">
+                                <div class="certification-date">
+                                    <i data-lucide="calendar"></i>
+                                    <span>2023</span>
+                                </div>
+                                <span class="badge badge-success">Completado</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card certification-card">
+                        <div class="certification-icon">
+                            <i data-lucide="award"></i>
+                        </div>
+                        <div class="certification-content">
+                            <h4>Git y GitHub para Principiantes</h4>
+                            <p>Platzi</p>
+                            <div class="certification-meta">
+                                <div class="certification-date">
+                                    <i data-lucide="calendar"></i>
+                                    <span>2024</span>
+                                </div>
+                                <span class="badge badge-success">Completado</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card certification-card">
+                        <div class="certification-icon">
+                            <i data-lucide="award"></i>
+                        </div>
+                        <div class="certification-content">
+                            <h4>JavaScript Básico</h4>
+                            <p>Codecademy</p>
+                            <div class="certification-meta">
+                                <div class="certification-date">
+                                    <i data-lucide="calendar"></i>
+                                    <span>2024</span>
+                                </div>
+                                <span class="badge badge-warning">En progreso</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="habilidades" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Habilidades Técnicas</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">Tecnologías y herramientas que domino para crear soluciones digitales completas</p>
+            </div>
+            
+            <div class="skills-filters">
+                <button class="filter-btn active" data-filter="all">Todas</button>
+                <button class="filter-btn" data-filter="programming">Programación</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="database">Base de Datos</button>
+                <button class="filter-btn" data-filter="tools">Herramientas</button>
+                <button class="filter-btn" data-filter="design">Diseño</button>
+            </div>
+            
+            <div class="skills-grid" id="skills-grid">
+                <div class="card skill-card" data-category="programming">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i data-lucide="code"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Java</h3>
+                            <p class="skill-category">Programación</p>
+                        </div>
+                    </div>
+                    <p class="skill-description">POO, Estructuras de datos</p>
+                    <div class="skill-progress">
+                        <div class="progress-info">
+                            <span>Nivel de Dominio</span>
+                            <span class="progress-value">70%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-progress="70"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card skill-card" data-category="programming">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i data-lucide="code"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>C++</h3>
+                            <p class="skill-category">Programación</p>
+                        </div>
+                    </div>
+                    <p class="skill-description">Algoritmos, Memoria dinámica</p>
+                    <div class="skill-progress">
+                        <div class="progress-info">
+                            <span>Nivel de Dominio</span>
+                            <span class="progress-value">65%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-progress="65"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card skill-card" data-category="web">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i data-lucide="code"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>JavaScript</h3>
+                            <p class="skill-category">Web</p>
+                        </div>
+                    </div>
+                    <p class="skill-description">ES6, DOM, Eventos</p>
+                    <div class="skill-progress">
+                        <div class="progress-info">
+                            <span>Nivel de Dominio</span>
+                            <span class="progress-value">60%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-progress="60"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card skill-card" data-category="web">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i data-lucide="globe"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>HTML/CSS</h3>
+                            <p class="skill-category">Web</p>
+                        </div>
+                    </div>
+                    <p class="skill-description">Responsive, Flexbox, Grid</p>
+                    <div class="skill-progress">
+                        <div class="progress-info">
+                            <span>Nivel de Dominio</span>
+                            <span class="progress-value">75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-progress="75"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card skill-card" data-category="programming">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i data-lucide="code"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Python</h3>
+                            <p class="skill-category">Programación</p>
+                        </div>
+                    </div>
+                    <p class="skill-description">Básico, Scripts, Automatización</p>
+                    <div class="skill-progress">
+                        <div class="progress-info">
+                            <span>Nivel de Dominio</span>
+                            <span class="progress-value">55%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-progress="55"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card skill-card" data-category="database">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i data-lucide="database"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>MySQL</h3>
+                            <p class="skill-category">Base de Datos</p>
+                        </div>
+                    </div>
+                    <p class="skill-description">Consultas, Relaciones, Normalización</p>
+                    <div class="skill-progress">
+                        <div class="progress-info">
+                            <span>Nivel de Dominio</span>
+                            <span class="progress-value">60%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-progress="60"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card skill-card" data-category="tools">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i data-lucide="code"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Git/GitHub</h3>
+                            <p class="skill-category">Herramientas</p>
+                        </div>
+                    </div>
+                    <p class="skill-description">Control de versiones básico</p>
+                    <div class="skill-progress">
+                        <div class="progress-info">
+                            <span>Nivel de Dominio</span>
+                            <span class="progress-value">50%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-progress="50"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card skill-card" data-category="design">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i data-lucide="palette"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Figma</h3>
+                            <p class="skill-category">Diseño</p>
+                        </div>
+                    </div>
+                    <p class="skill-description">Prototipos, UI básico</p>
+                    <div class="skill-progress">
+                        <div class="progress-info">
+                            <span>Nivel de Dominio</span>
+                            <span class="progress-value">45%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-progress="45"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="proyectos" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Proyectos Académicos</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">Proyectos desarrollados durante mi formación universitaria</p>
+            </div>
+            
+            <div class="projects-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="academic">Académico</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="algorithms">Algoritmos</button>
+                <button class="filter-btn" data-filter="database">Base de Datos</button>
+            </div>
+            
+            <div class="projects-grid" id="projects-grid">
+                <div class="card project-card featured" data-category="academic">
+                    <div class="project-badge">Destacado</div>
+                    <div class="project-image">
+                        <img src="/placeholder.svg?height=200&width=300&text=Sistema+Bibliotecario" alt="Sistema de Gestión Bibliotecaria">
+                        <div class="project-overlay">
+                            <button class="btn btn-secondary btn-sm">Ver Detalles</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Sistema de Gestión Bibliotecaria</h3>
+                            <span class="badge badge-outline">Académico</span>
+                        </div>
+                        <p>Proyecto final de Programación Orientada a Objetos. Sistema para gestionar préstamos de libros, usuarios e inventario de una biblioteca universitaria.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">JavaFX</span>
+                            <span class="tech-tag">JDBC</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-outline btn-sm">
+                                <i data-lucide="github"></i>
+                                Código
+                            </a>
+                            <a href="#" class="btn btn-primary btn-sm">
+                                <i data-lucide="external-link"></i>
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card project-card" data-category="academic">
+                    <div class="project-image">
+                        <img src="/placeholder.svg?height=200&width=300&text=Calculadora" alt="Calculadora Científica">
+                        <div class="project-overlay">
+                            <button class="btn btn-secondary btn-sm">Ver Detalles</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Calculadora Científica</h3>
+                            <span class="badge badge-outline">Académico</span>
+                        </div>
+                        <p>Calculadora con interfaz gráfica que incluye operaciones básicas, trigonométricas y logarítmicas. Implementada con principios de POO.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">Qt</span>
+                            <span class="tech-tag">Algoritmos</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-outline btn-sm">
+                                <i data-lucide="github"></i>
+                                Código
+                            </a>
+                            <a href="#" class="btn btn-primary btn-sm">
+                                <i data-lucide="external-link"></i>
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="/placeholder.svg?height=200&width=300&text=Web+Personal" alt="Página Web Personal">
+                        <div class="project-overlay">
+                            <button class="btn btn-secondary btn-sm">Ver Detalles</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Página Web Personal</h3>
+                            <span class="badge badge-outline">Web</span>
+                        </div>
+                        <p>Mi primera página web desarrollada como proyecto de la materia de Desarrollo Web. Incluye diseño responsive y animaciones CSS.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-outline btn-sm">
+                                <i data-lucide="github"></i>
+                                Código
+                            </a>
+                            <a href="#" class="btn btn-primary btn-sm">
+                                <i data-lucide="external-link"></i>
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card project-card featured" data-category="web">
+                    <div class="project-badge">Destacado</div>
+                    <div class="project-image">
+                        <img src="/placeholder.svg?height=200&width=300&text=Juego+Memoria" alt="Juego de Memoria">
+                        <div class="project-overlay">
+                            <button class="btn btn-secondary btn-sm">Ver Detalles</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Juego de Memoria</h3>
+                            <span class="badge badge-outline">Web</span>
+                        </div>
+                        <p>Juego interactivo desarrollado en JavaScript vanilla. Incluye diferentes niveles de dificultad y sistema de puntuación.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">LocalStorage</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-outline btn-sm">
+                                <i data-lucide="github"></i>
+                                Código
+                            </a>
+                            <a href="#" class="btn btn-primary btn-sm">
+                                <i data-lucide="external-link"></i>
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card project-card" data-category="algorithms">
+                    <div class="project-image">
+                        <img src="/placeholder.svg?height=200&width=300&text=Algoritmos" alt="Algoritmos de Ordenamiento">
+                        <div class="project-overlay">
+                            <button class="btn btn-secondary btn-sm">Ver Detalles</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Algoritmos de Ordenamiento</h3>
+                            <span class="badge badge-outline">Algoritmos</span>
+                        </div>
+                        <p>Implementación y comparación de diferentes algoritmos de ordenamiento con análisis de complejidad temporal y espacial.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Matplotlib</span>
+                            <span class="tech-tag">Análisis de Algoritmos</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-outline btn-sm">
+                                <i data-lucide="github"></i>
+                                Código
+                            </a>
+                            <a href="#" class="btn btn-primary btn-sm">
+                                <i data-lucide="external-link"></i>
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card project-card" data-category="database">
+                    <div class="project-image">
+                        <img src="/placeholder.svg?height=200&width=300&text=Base+Datos" alt="Base de Datos Universitaria">
+                        <div class="project-overlay">
+                            <button class="btn btn-secondary btn-sm">Ver Detalles</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Base de Datos Universitaria</h3>
+                            <span class="badge badge-outline">Base de Datos</span>
+                        </div>
+                        <p>Diseño e implementación de una base de datos para gestionar estudiantes, materias y calificaciones con consultas complejas.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Normalización</span>
+                            <span class="tech-tag">Triggers</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-outline btn-sm">
+                                <i data-lucide="github"></i>
+                                Código
+                            </a>
+                            <a href="#" class="btn btn-primary btn-sm">
+                                <i data-lucide="external-link"></i>
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="projects-more">
+                <button class="btn btn-outline btn-lg">Ver Todos los Proyectos</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contacto</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">¿Tienes un proyecto en mente? ¡Hablemos y hagamos realidad tus ideas!</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-text">
+                        <h3>¡Conectemos!</h3>
+                        <p>Estoy buscando oportunidades de prácticas profesionales, proyectos colaborativos o mentorías. Si tienes algún consejo, oportunidad o simplemente quieres conectar con un estudiante apasionado por la tecnología, ¡me encantaría escucharte!</p>
+                        <p>Siempre estoy dispuesto a aprender y colaborar en proyectos interesantes. Respondo a todos los mensajes lo más pronto posible.</p>
+                    </div>
+                    
+                    <div class="contact-details">
+                        <a href="mailto:franz@email.com" class="contact-item">
+                            <div class="contact-icon">
+                                <i data-lucide="mail"></i>
+                            </div>
+                            <div class="contact-content">
+                                <h4>Correo Electrónico</h4>
+                                <p>franz@email.com</p>
+                            </div>
+                        </a>
+                        
+                        <a href="tel:+59112345678" class="contact-item">
+                            <div class="contact-icon">
+                                <i data-lucide="phone"></i>
+                            </div>
+                            <div class="contact-content">
+                                <h4>Teléfono</h4>
+                                <p>+591 1234-5678</p>
+                            </div>
+                        </a>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i data-lucide="map-pin"></i>
+                            </div>
+                            <div class="contact-content">
+                                <h4>Ubicación</h4>
+                                <p>La Paz, Bolivia</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4>Sígueme en redes sociales</h4>
+                        <div class="social-icons">
+                            <a href="https://github.com/franzabc" target="_blank" class="social-link github">
+                                <i data-lucide="github"></i>
+                            </a>
+                            <a href="https://linkedin.com/in/franzabc" target="_blank" class="social-link linkedin">
+                                <i data-lucide="linkedin"></i>
+                            </a>
+                            <a href="https://twitter.com/franzabc" target="_blank" class="social-link twitter">
+                                <i data-lucide="twitter"></i>
+                            </a>
+                            <a href="mailto:franz@email.com" class="social-link email">
+                                <i data-lucide="mail"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <div class="card contact-form-card">
+                        <h3>Envíame un Mensaje</h3>
+                        <p>Completa el formulario y te responderé lo antes posible.</p>
+                        
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="nombre">Nombre *</label>
+                                    <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email *</label>
+                                    <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="asunto">Asunto *</label>
+                                <input type="text" id="asunto" name="asunto" required placeholder="Asunto del mensaje">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="mensaje">Mensaje *</label>
+                                <textarea id="mensaje" name="mensaje" required placeholder="Cuéntame sobre tu proyecto o consulta..." rows="5"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+                                <i data-lucide="send"></i>
+                                <span>Enviar Mensaje</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-bg"></div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3 class="footer-title">Franz Abdel Caballero Condori</h3>
+                    <p class="footer-description">Estudiante de Sistemas Informáticos apasionado por aprender y crear soluciones tecnológicas. En búsqueda de oportunidades para crecer profesionalmente.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/franzabc" target="_blank" class="social-link github">
+                            <i data-lucide="github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/franzabc" target="_blank" class="social-link linkedin">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="mailto:franz@email.com" class="social-link email">
+                            <i data-lucide="mail"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio" onclick="scrollToSection('inicio')">Inicio</a></li>
+                        <li><a href="#sobre-mi" onclick="scrollToSection('sobre-mi')">Sobre Mí</a></li>
+                        <li><a href="#habilidades" onclick="scrollToSection('habilidades')">Habilidades</a></li>
+                        <li><a href="#proyectos" onclick="scrollToSection('proyectos')">Proyectos</a></li>
+                        <li><a href="#contacto" onclick="scrollToSection('contacto')">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <div class="footer-contact-info">
+                        <p>franz@email.com</p>
+                        <p>+591 1234-5678</p>
+                        <p>La Paz, Bolivia</p>
+                        <p class="availability">Disponible para prácticas profesionales</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <span>© 2024 Franz Caballero. Hecho con</span>
+                    <i data-lucide="heart" class="heart-icon"></i>
+                    <span>y mucho café ☕</span>
+                </div>
+                <button class="back-to-top" onclick="scrollToSection('inicio')">
+                    <i data-lucide="arrow-up"></i>
+                    Volver Arriba
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <div class="toast-content">
+            <i data-lucide="check-circle" class="toast-icon"></i>
+            <span class="toast-message">¡Mensaje enviado correctamente!</span>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
